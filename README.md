@@ -21,3 +21,11 @@ In this repository, we take every day use case and convert that into a project. 
    - /C-Sharp
    - /Python
    - /Powershell
+ 
+## Use Cases
+1. Create 100 folders in Day 1, Day 2,...., Day 100 format and in each folder C-Sharp, Python and Powershell folders
+   2. If we do this in manual process then how long it takes:
+      
+   4. Through program, this took only 185 to 200 milliseconds
+      ![image](https://github.com/user-attachments/assets/04b7da29-101a-466f-a605-7b21be2f7fa1)
+
