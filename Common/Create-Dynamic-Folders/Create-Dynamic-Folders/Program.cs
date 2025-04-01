@@ -30,6 +30,10 @@ void CreateSubFolders(string mainFolderPath)
 {
     // Create sub folders inside the main folder
     Directory.CreateDirectory(Path.Combine(mainFolderPath, CSharp));
+    // Create a .gitkeep file inside the folder
+    File.Create(Path.Combine(mainFolderPath, CSharp, ".gitkeep")).Close();
     Directory.CreateDirectory(Path.Combine(mainFolderPath, Python));
+    File.Create(Path.Combine(mainFolderPath, Python, ".gitkeep")).Close();
     Directory.CreateDirectory(Path.Combine(mainFolderPath, PowerShell));
+    File.Create(Path.Combine(mainFolderPath, PowerShell, ".gitkeep")).Close();
 }
