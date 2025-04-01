@@ -29,9 +29,11 @@ In this repository, we take every day use case and convert that into a project. 
       **Yet to update this place with actual seconds**
       
    - Implemented this process using C-Sharp and it took following seconds
+      - Initial Code:  ![image](https://github.com/user-attachments/assets/04b7da29-101a-466f-a605-7b21be2f7fa1)
+      - After Refacted Code:  ![image](https://github.com/user-attachments/assets/7cab407d-9687-43fc-b435-c2753fcaf60f)
+      - After added .gitkeep file in each subfolder:  ![image](https://github.com/user-attachments/assets/61b7d9c9-f89c-40f8-a694-b451bac342b4)
 
-      Initial Code: ![image](https://github.com/user-attachments/assets/04b7da29-101a-466f-a605-7b21be2f7fa1)
 
-      After Refacted Code: ![image](https://github.com/user-attachments/assets/7cab407d-9687-43fc-b435-c2753fcaf60f)
+      
 
 
