@@ -1,5 +1,4 @@
 ﻿// Use Case: Create number of folders dynamically and in each folder creates C-Sharp, Python and Powershell sub folders. Main Folder name should be in "Day <Number>" format.
-
 using System.Diagnostics;
 
 Stopwatch sw = Stopwatch.StartNew();
@@ -28,12 +27,12 @@ Console.WriteLine($"Total Time it takes to create the folders: {sw.ElapsedMillis
 
 void CreateSubFolders(string mainFolderPath)
 {
-    // Create sub folders inside the main folder
-    Directory.CreateDirectory(Path.Combine(mainFolderPath, CSharp));
-    // Create a .gitkeep file inside the folder
-    File.Create(Path.Combine(mainFolderPath, CSharp, ".gitkeep")).Close();
-    Directory.CreateDirectory(Path.Combine(mainFolderPath, Python));
-    File.Create(Path.Combine(mainFolderPath, Python, ".gitkeep")).Close();
-    Directory.CreateDirectory(Path.Combine(mainFolderPath, PowerShell));
-    File.Create(Path.Combine(mainFolderPath, PowerShell, ".gitkeep")).Close();
+    string[] subFolders = { CSharp, Python, PowerShell };
+
+    foreach (var subFolder in subFolders)
+    {
+        string subFolderPath = Path.Combine(mainFolderPath, subFolder);
+        Directory.CreateDirectory(subFolderPath);
+        using (File.Create(Path.Combine(subFolderPath, ".gitkeep"))) { }
+    }
 }
