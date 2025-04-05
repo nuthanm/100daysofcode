@@ -8,6 +8,12 @@ In this repository, we take every day use case and convert that into a project. 
 
 ## Folder Structure 
 - /Common
+- /Learning
+- /git-hooks
+   - /pre-commit
+   - /pre-push
+   - ....
+   - ....
 - /Day 1
    - /C-Sharp
    - /Python
