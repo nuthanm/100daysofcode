@@ -1,4 +1,5 @@
-## Use Case: Create a directory if not exits
+## Learning number 1 : We don't require _**.Exists**_ condition and the reason is this functionality checks in by default of _**.CreateDirectory**_ method.
+
 
 ### Option 1
 ~~~
