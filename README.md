@@ -7,7 +7,6 @@ In this repository, we take every day use case and convert that into a project. 
 - Powershell
 
 ## Folder Structure 
-- /Common
 - /Learning
 - /git-hooks
    - /pre-commit
@@ -29,16 +28,11 @@ In this repository, we take every day use case and convert that into a project. 
    - /Powershell
  
 ## Use Cases
-1. Create 100 folders in Day 1, Day 2,...., Day 100 format and in each folder C-Sharp, Python and Powershell folders
-   - If we do this in manual process then how long it takes:
-      
-      **Yet to update this place with actual seconds**
-      
-   - Implemented this process using C-Sharp and it took following seconds
-      - Initial Code:  ![image](https://github.com/user-attachments/assets/04b7da29-101a-466f-a605-7b21be2f7fa1)
-      - After Refacted Code:  ![image](https://github.com/user-attachments/assets/7cab407d-9687-43fc-b435-c2753fcaf60f)
-      - After added .gitkeep file in each subfolder:  ![image](https://github.com/user-attachments/assets/61b7d9c9-f89c-40f8-a694-b451bac342b4)
-
+1. Create 100 folders in Day 1, Day 2,...., Day 100 format and in each folder C-Sharp, Python and Powershell folders:
+   - [Dynamic Folders Creation - Code - Chsarp](https://github.com/nuthanm/100daysofcode/blob/main/Day%201/C-Sharp/Create-Dynamic-Folders.cs)
+   - [Dynamic Folders Creation - Code - Powershell](https://github.com/nuthanm/100daysofcode/blob/main/Day%201/Powershell/create-dynamic-folders.ps1)
+   - [Dynamic Folders Creation - Code - Python](https://github.com/nuthanm/100daysofcode/blob/main/Day%201/Python/create-dynamic-folders.py)
+   - **Acheivement:** If you automate this process, you can save a lot of manual time.
 
       
 
