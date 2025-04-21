@@ -33,6 +33,8 @@ In this repository, we take every day use case and convert that into a project. 
    - [Dynamic Folders Creation - Code - Powershell](https://github.com/nuthanm/100daysofcode/blob/main/Day%201/Powershell/create-dynamic-folders.ps1)
    - [Dynamic Folders Creation - Code - Python](https://github.com/nuthanm/100daysofcode/blob/main/Day%201/Python/create-dynamic-folders.py)
    - **Acheivement:** If you automate this process, you can save a lot of manual time.
+2. Team member wise, number of PR's and their review comments
+   - [Extract PR Details and its count - Code - Powershell](https://github.com/nuthanm/100daysofcode/blob/main/Day%202/Powershell/Get-PR-Count-From-Each-Team-Member.ps1)
 
       
 
