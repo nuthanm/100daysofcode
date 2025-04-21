@@ -15,7 +15,7 @@ $specificRepositories = @(
     # Add more repositories as needed
 )
 
-$sprintName = "Sprint_3"
+$sprintName = "Sprint3"
 $startDate = "2025-03-26"
 #$endDate = Get-Date -Format "yyyy-MM-dd"
 $endDate = "2025-04-16"
@@ -84,12 +84,12 @@ $memberStats = $results | Group-Object TeamMember | ForEach-Object {
 }
 
 # Export detailed results to CSV
-$outputPath = "Team_PRStats_$sprintName_$currentDate.csv"
+$outputPath = "DragonTeam_PRStats_${sprintName}_${startDate}_to_${endDate}.csv"
 $results | Export-Csv -Path $outputPath -NoTypeInformation
 Write-Host "Detailed PR data exported to $outputPath"
 
 # Export summary to CSV
-$summaryPath = "Team_PRSummary_$sprintName_$currentDate.csv"
+$summaryPath = "DragonTeam_PRSummary_${sprintName}_${startDate}_to_${endDate}.csv"
 $memberStats | Export-Csv -Path $summaryPath -NoTypeInformation
 Write-Host "Team summary exported to $summaryPath"
 
