@@ -36,6 +36,7 @@ In this repository, we take every day use case and convert that into a project. 
 2. Team member wise, number of PR's and their review comments
    - [Extract PR Details and its count - Code - Powershell](https://github.com/nuthanm/100daysofcode/blob/main/Day%202/Powershell/Get-PR-Count-From-Each-Team-Member.ps1)
    - [Extract_PR_AND_Reviewer_Comments_Count_Details_Code_Powershell](https://github.com/nuthanm/100daysofcode/blob/main/Day%202/Powershell/Get-PR-and-Reviewers-Count-From-Each-Team-Member.ps1)
+   - **Acheivement:** This automation helps in identify how many PR's and review comments for each PR from each Team member. All these stats helps to understand how developers are doing.
 
       
 
